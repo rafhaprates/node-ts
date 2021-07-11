@@ -9,20 +9,22 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "knex": "^0.95.7",
+    "pg": "^8.6.0",
     "pg-connection-string": "^2.5.0",
     "reflect-metadata": "^0.1.13",
-    "knex": "^0.95.7",
-    "validator": "^13.6.0",
     "typeorm": "^0.2.34",
-    "pg": "^8.6.0"
+    "uuid": "^8.3.2",
+    "validator": "^13.6.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/node": "^16.3.1",
     "@types/typescript": "^2.0.0",
     "@types/validator": "^13.6.3",
-    "typescript": "^4.3.5",
+    "@types/uuid": "^8.3.1",
     "nodemon": "^2.0.12",
-    "ts-node-dev": "^1.1.8"
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
   }
 }

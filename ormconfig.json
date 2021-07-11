@@ -6,13 +6,14 @@
   "password": "Postgres2018!",
   "database": "proj_teste",
   "entities": [
-    "src/**/**.entity{.ts,.js}"
+    "src/entities/*.ts"
   ],
   "autoSchemaSync": true,
   "migrations": [
     "src/database/migration/*.ts"
   ],
   "cli": {
-    "migrationsDir": "src/database/migration"
+    "migrationsDir": "src/database/migration",
+    "entitiesDir": "src/entities"
   }
 }
