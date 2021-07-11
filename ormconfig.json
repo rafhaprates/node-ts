@@ -1,0 +1,18 @@
+{
+  "type": "postgres",
+  "host": "127.0.0.1",
+  "port": 5432,
+  "username": "postgres",
+  "password": "Postgres2018!",
+  "database": "proj_teste",
+  "entities": [
+    "src/**/**.entity{.ts,.js}"
+  ],
+  "autoSchemaSync": true,
+  "migrations": [
+    "src/database/migration/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "src/database/migration"
+  }
+}
